@@ -1,0 +1,23 @@
+.image-stack {
+    position: relative;
+    width: 100%; /* Set the width of the container */
+    height: 300px; /* Set the height of the container */
+}
+
+.image-stack img {
+    position: absolute;
+    width: 100%; /* Adjust size as needed */
+    height: auto;
+}
+
+.image1 {
+    top: 0;
+    left: 0;
+    z-index: 1; /* Controls stacking order */
+}
+
+.image2 {
+    top: 20px; /* Adjust position */
+    left: 20px;
+    z-index: 2; /* Higher z-index means it appears on top */
+}
