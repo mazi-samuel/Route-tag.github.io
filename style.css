@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@ body {
   background-image: url('./images/Frame 51.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;     
   min-height: 100vh;
   color: white;
   position: relative;
@@ -411,7 +410,7 @@ body {
   background-position: center;
   padding: 80px 40px;
   width: 100%;
-  height: auto;
+  height: 700px;
 }
 
 .content-wrapper {
@@ -427,15 +426,14 @@ body {
 }
 
 .spreaded-phone {
-  /*position: absolute;*/
-  left: 200px;
   flex: 1;
   width: 100%;
   max-width: 400px;
 }
 
 .fourth-phone-image {
-  width: 100%;
+  /*position: absolute;*/
+  width: 500px;
   height: auto;
 }
 
@@ -492,4 +490,9 @@ body {
 .store-btn {
   height: 50px;
   width: auto;
+}
+
+.last {
+  display: inline-flex;
+  
 }
