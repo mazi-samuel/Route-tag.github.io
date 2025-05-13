@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 body {
   font-family: "Outfit", sans-serif !important;
   background-color: #e5e3e3;
@@ -427,6 +432,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-top: 100px;
+  margin-bottom: 8px;
 }
 
 .ellipse-img {
@@ -477,6 +483,7 @@ body {
 @media screen and (max-width: 768px) {
   .fifth-section {
     flex-direction: column;
+    margin-bottom: 1rem;
   }
 
   .Payments-text {
@@ -494,6 +501,31 @@ body {
 }
 
 .last {
-  /* display: inline-flex; */
-  background-image: url(./images/);
+  background-color: orangered;
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.last-text span {
+  color: #111;
+}
+
+.footer-links {
+  background-color: #111;
+  padding: 1rem;
+  color: #fff;
+}
+
+.footer-link {
+  display: flex;
+  gap: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.footer-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
