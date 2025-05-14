@@ -442,6 +442,8 @@ body {
 
 .ellipse-img {
   width: 500px;
+  margin-bottom: 0px;
+  
 }
 
 .right-image {
