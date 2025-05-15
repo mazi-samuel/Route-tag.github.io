@@ -557,7 +557,12 @@ body {
   .last-text {
     text-align: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.2rem;
+    margin: 0 auto;
+    width: 300px;
+  }
+  .last h1 {
+    width: 400px;
   }
 
   .footer-link {
