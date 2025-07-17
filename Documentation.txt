@@ -1,0 +1,124 @@
+# Routag - Package Delivery Platform Documentation
+
+## Overview
+
+Routag is a peer-to-peer package delivery platform that connects senders with couriers traveling along similar routes. The platform enables faster, cheaper, and safer package deliveries by leveraging everyday travelers and trusted businesses as couriers.
+
+## Table of Contents
+1. [Project Structure](#project-structure)
+2. [Features](#features)
+3. [Sections Breakdown](#sections-breakdown)
+4. [Technologies Used](#technologies-used)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Responsive Considerations](#responsive-considerations)
+8. [Future Improvements](#future-improvements)
+
+## Project Structure
+
+The project follows a standard HTML5 structure with the following key components:
+
+```
+index.html
+├── style.css
+└── images/
+    ├── Group 10.png (logo)
+    ├── Group 58.png (phone mockup)
+    ├── [CITYPNG.COM]Get It On Google Play... (app store buttons)
+    ├── image.png (sender illustration)
+    ├── image (1).png (courier illustration)
+    └── ... (other assets)
+```
+
+## Features
+
+1. **Peer-to-Peer Delivery Marketplace**
+   - Senders can post packages and find couriers traveling their way
+   - Couriers (individuals and businesses) can earn by delivering packages along their routes
+
+2. **Key Benefits**
+   - Flexible delivery options
+   - Affordable, negotiable rates
+   - Secure in-app wallet
+   - Real-time tracking
+   - Dedicated support
+
+3. **Platform Accessibility**
+   - Available on both iOS and Android
+   - Web interface for quick access
+
+## Sections Breakdown
+
+### 1. Hero Section
+- Company logo and name
+- Main value proposition: "Send. Deliver. Earn."
+- Call-to-action with app store download buttons
+- Phone mockup visualization
+
+### 2. How It Works Section
+- Explains the platform functionality for both senders and couriers
+- Visual illustrations for each user type
+
+### 3. Why Choose Us Section
+- Highlights key benefits with icons and short descriptions
+- Focuses on flexibility, affordability, security, and support
+
+### 4. Built for Everyone Section
+- Emphasizes platform versatility for different user types
+- Reiterates download CTAs
+
+### 5. Payments Section
+- Explains the simple and secure payment system
+- Features visual elements showing wallet functionality
+
+### 6. Footer
+- Final call-to-action
+- App download buttons
+- QR code for quick access
+- Social media links
+- Copyright information
+
+## Technologies Used
+
+- **HTML5**: Semantic markup structure
+- **CSS**: Styling and layout
+- **Remix Icons**: Icon set from CDN
+- **Responsive Design**: Mobile-first approach (implied by viewport meta tag)
+
+## Installation
+
+To run this project locally:
+
+1. Clone the repository or download the project files
+2. Ensure all assets (images) are in the correct `/images` directory
+3. Open `index.html` in a web browser
+
+## Usage
+
+This is a static website that serves as a marketing page for the Routag mobile application. Users can:
+
+1. Learn about the platform's features
+2. Understand how it works for both senders and couriers
+3. Download the mobile app through the provided links
+
+## Responsive Considerations
+
+The HTML includes responsive meta tags:
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+However, the actual responsive behavior would be implemented in the accompanying CSS file (`style.css`).
+
+## Future Improvements
+
+1. **Enhanced Responsiveness**: More robust mobile layouts
+2. **Interactive Elements**: JavaScript functionality for better user engagement
+3. **Form Integration**: Contact or signup forms
+4. **Animation**: Subtle animations for better user experience
+5. **Accessibility**: Improved ARIA attributes and contrast ratios
+6. **Performance Optimization**: Image optimization and lazy loading
+
+## Conclusion
+
+The Routag landing page effectively communicates the platform's value proposition to both senders and couriers. The clean design with clear sections guides users through the information hierarchy, culminating in clear calls-to-action for app downloads. The project demonstrates solid HTML structure and would benefit from the responsive CSS implementation to complete the user experience.
